@@ -4,21 +4,21 @@ const ganpatis = [
     price: "₹850",
     size: "12 inches",
     image: "images/gpGanpati_num_1_Type_1_Name_balGaneshGanpati_code_0001.jpeg",
-    details: "Beautiful clay finish with charming features"
+    Code: "01"
   },
   {
     name: "Eco Friendly Ganpati",
     price: "₹1200",
     size: "18 inches",
     image: "images/gpGanpati_num_2_Type_2_Name_mayurMukutGanpati_code_0002.jpeg",
-    details: "Made with eco-friendly material and Mayur Mukut design"
+    Code: "02"
   },
   {
     name: "Friendly Ganpati",
     price: "₹1100",
     size: "18 inches",
     image: "images/gpGanpati_num_3_Type_2_Name_shwetMarbleGanpati_code_0003.jpeg",
-    details: "Shwet Marble look, ideal for home decor"
+    Code: "03"
   }
   // Continue adding entries for all 65 Ganpatis
 ];
@@ -65,7 +65,7 @@ function renderGallery(list) {
         <h4>${ganpati.name}</h4>
         <p><strong>Price:</strong> ${ganpati.price}</p>
         <p><strong>Size:</strong> ${ganpati.size}</p>
-        ${ganpati.details ? `<p><strong>Details:</strong> ${ganpati.details}</p>` : ''}
+        ${ganpati.Code ? `<p><strong>Code:</strong> ${ganpati.Code}</p>` : ''}
       </div>
     `;
     gallery.appendChild(card);
