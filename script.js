@@ -168,6 +168,13 @@ const ganpatis = [
     "Code": "32"
   },
   {
+  "name": "Bal Ganesh",
+  "price": "₹1151",
+  "size": "17-19 inches",
+  "image": "images/34.jpeg",
+  "Code": "34"
+},
+  {
     "name": "Chaturbhuj Ganpati",
     "price": "₹1251",
     "size": "18–20 inches",
